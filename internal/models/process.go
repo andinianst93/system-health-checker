@@ -8,9 +8,7 @@ type ProcessInfo struct {
 	Status        string
 }
 
-// Constructor
 func NewProcessInfo(pid int32, name string) *ProcessInfo {
-	// PSEUDOCODE:
 	// - Create new ProcessInfo with parameters
 	// - Initialize CPUPercent and MemoryPercent to 0
 	// - Set Status to "unknown"

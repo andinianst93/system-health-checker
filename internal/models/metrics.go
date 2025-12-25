@@ -13,7 +13,6 @@ type SystemMetrics struct {
 	CheckTime   time.Time
 }
 
-// Constructor
 func NewSystemMetrics() *SystemMetrics {
 	// - Create new SystemMetrics struct
 	// - Initialize Disks as empty slice: make([]*DiskInfo, 0)

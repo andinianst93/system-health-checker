@@ -6,9 +6,7 @@ type DiskInfo struct {
 	TotalBytes uint64
 }
 
-// Constructor
 func NewDiskInfo(mountPoint string, used, total uint64) *DiskInfo {
-	// PSEUDOCODE:
 	// - Create new DiskInfo with parameters
 	// - Return pointer to struct
 	return &DiskInfo{

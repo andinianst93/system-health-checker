@@ -10,7 +10,6 @@ type Thresholds struct {
 }
 
 func NewDefaultThresholds() *Thresholds {
-	// PSEUDOCODE:
 	// - Create new Thresholds
 	// - Set CPUWarning = 80.0
 	// - Set CPUCritical = 90.0
